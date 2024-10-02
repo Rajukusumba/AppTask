@@ -30,26 +30,6 @@ class UserListViewMOdel():ViewModel() {
             Graph.db.userDao().deleteUserById(userId = use.id)
         }
     }
-    fun getUsers() {
 
-//            val users = AppDatabase.getDatabase(context =).userDao().getAllUsers()
-//            _userList.value = users
-            // Handle users list
-       // }
-    }
-//    private fun addDummyData() {
-//        // Adding dummy data for testing
-//        val dummyUsers = listOf(
-//            UserEntity(firstName = "John", lastName = "Doe", email = "john.doe@example.com"),
-//            UserEntity(firstName = "Jane", lastName = "Smith", email = "jane.smith@example.com"),
-//            UserEntity(firstName = "Emily", lastName = "Jones", email = "emily.jones@example.com"),
-//            UserEntity(
-//                firstName = "Michael",
-//                lastName = "Brown",
-//                email = "michael.brown@example.com"
-//            ),
-//            UserEntity(firstName = "Sarah", lastName = "Davis", email = "sarah.davis@example.com")
-//        )
-//        _userList.value = dummyUsers // Update the user list with dummy data
-//    }
+
 }

@@ -49,7 +49,7 @@ fun LoginScreen(navController: NavController) {
         Spacer(modifier = Modifier.height(16.dp))
         Button(onClick = {
             if (username == "testapp@google.com" && password == "Test@123456") {
-             //   navController.navigate("user")
+
           navController.navigate("userList")
             } else {
                 error = "Invalid Username or Password"

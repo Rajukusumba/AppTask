@@ -25,7 +25,7 @@ fun AppLaunchText() {
 
     Text(
         text = annotatedString,
-        fontSize = 24.sp, // Adjust the font size as needed
-        textAlign = TextAlign.Center // Center the text if desired
+        fontSize = 24.sp,
+        textAlign = TextAlign.Center
     )
 }

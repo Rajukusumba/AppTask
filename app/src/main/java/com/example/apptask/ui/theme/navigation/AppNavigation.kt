@@ -19,8 +19,7 @@ fun AppNavigation() {
                 composable("userList") { UserListScreen(navController) }
                 composable("userForm") { UserForm(navController) }
                 composable("WeatherScreen") { WeatherScreen(navController) }
-               // composable("user") { UserList(navController) }
-//                composable("third_screen") { ThirdScreen(navController) }
+
             }
         }
 

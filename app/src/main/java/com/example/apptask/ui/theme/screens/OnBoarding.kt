@@ -18,8 +18,6 @@ import com.example.apptask.ui.theme.customlayout.AppLaunchText
 
 @Composable
 fun OnboardingScreen(navController: NavController) {
-   // val navController = rememberNavController()
-
 
     Column(
         modifier = Modifier

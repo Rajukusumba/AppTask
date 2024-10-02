@@ -59,7 +59,7 @@ fun UserListScreen(navController: NavController, viewModel: UserListViewMOdel = 
                     // Add button for adding a new user
                     IconButton(onClick = {
                         // Navigate to User Form when button is clicked
-                        navController.navigate("userForm") // Ensure "userForm" route is defined in your NavHost
+                        navController.navigate("userForm")
                     }) {
                         Icon(
                             imageVector = Icons.Filled.Add,
@@ -104,7 +104,7 @@ fun UserListScreen(navController: NavController, viewModel: UserListViewMOdel = 
 
 @Composable
 fun SwipeableUserItem(user: UserEntity, onDismiss: () -> Unit, onClick: () -> Unit) {
-    var offsetX by remember { mutableStateOf(0f) } // Offset for horizontal movement
+    var offsetX by remember { mutableStateOf(0f) }
     val maxOffsetX = 300f
 
     Box(

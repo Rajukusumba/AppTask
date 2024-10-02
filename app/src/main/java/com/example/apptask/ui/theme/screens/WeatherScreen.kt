@@ -25,9 +25,8 @@ fun WeatherScreen(navController: NavController, viewModel: WeatherViewModel = We
         viewModel.fetchWeather(12.9082847623315, 77.65197822993314)
     }
     val onLogoutClick = {
-        // Handle logout logic here
-        // For example, navigate to the login screen
-        navController.navigate("login") // Ensure "LoginScreen" route is defined in your NavHost
+
+        navController.navigate("login")
     }
 
     Scaffold(

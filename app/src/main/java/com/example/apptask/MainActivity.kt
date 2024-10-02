@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
 
 AppNavigation()
             }
-//            Greeting("jkhjhji")
+
 
         }
     }
